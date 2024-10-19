@@ -6,11 +6,14 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[],
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     entry_points={
         'console_scripts': [
             'cell_runner=cell_runner.runner:main',  # Command to run in CLI
         ],
-    },author='Chintha Sai Charan',
+    },
+    author='Chintha Sai Charan',
     author_email='saicharanchintha8888@gmail.com',
     description='A package to run Jupyter notebook cells from the command line.',
     long_description=open('README.md').read(),
@@ -22,6 +25,5 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
+
 )
