@@ -11,13 +11,11 @@
 
 ## Installation
 
-You can install `cell_runner` locally by cloning the repository and running the following command:
+You can install `cell_runner` locally by running the following command:
 
 ```bash
-pip install -e .
+pip install cell-runner
 ```
-
-This installs the package in "editable" mode, allowing you to modify the code and use it without reinstalling.
 
 ## Requirements
 
