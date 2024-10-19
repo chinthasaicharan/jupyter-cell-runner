@@ -15,7 +15,7 @@ setup(
     description='A package to run Jupyter notebook cells from the command line.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/chinthasaicharan/jupyter-cell-runner',
+    url='https://github.com/yourusername/jupyter-cell-runner',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

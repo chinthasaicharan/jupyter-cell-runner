@@ -11,11 +11,11 @@ setup(
             'cell_runner=cell_runner.runner:main',  # Command to run in CLI
         ],
     },author='Chintha Sai Charan',
-    author_email='saicharanchintha8888@gmail.com',
+    author_email='your.email@example.com',
     description='A package to run Jupyter notebook cells from the command line.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/chinthasaicharan/jupyter-cell-runner',
+    url='https://github.com/yourusername/jupyter-cell-runner',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
